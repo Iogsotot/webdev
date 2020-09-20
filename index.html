@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webdev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="visually-hidden">webdev</h1>
+            <nav class="nav header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--active"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Syllabus</a></li>
+                    <li class="nav__item logo"><a href="#" class="nav__link"><img src="assets/logo.svg" alt="logo"></a>
+                    </li>
+                    <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section  promo">
+            <div class="container promo__bg">
+                <h2 class="promo__title">Your life is webdev</h2>
+                <p class="text promo__text">Whatever the approach to development may be, the final program must satisfy
+                    some fundamental properties</p>
+                <a href="#" class="btn">Get started</a>
+                <ul class="socials__list">
+                    <li class="socials__item"><a href="" class="social__link"><img class="icon icon--mail"
+                                src="assets/icon_mail.svg" alt="mail"></a></li>
+                    <li class="socials__item"><a href="" class="social__link"><img class="icon icon--facebook"
+                                src="assets/icon_fb.svg" alt="facebook"></a></li>
+                    <li class="socials__item"><a href="" class="social__link"><img class="icon icon--instagram"
+                                src="assets/icon_ig.svg" alt="instagram"></a></li>
+                    <li class="socials__item"><a href="" class="social__link"><img class="icon icon--telegram"
+                                src="assets/icon_tg.svg" alt="telegram"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section represent">
+            <div class="container">
+                <div class="text__group">
+                    <!-- <h2 class="title represent__title">Represent your idea with a smart Design</h2> -->
+                    <h2 class="title represent__title">Rappresent your idea with a smart Design</h2>
+                    <p class="text represent__text">Tasks accompanying and related to programming include: testing,
+                        debugging, source code maintenance, <strong class="text--bold">implementation of build
+                            systems</strong>, and management of derived artifacts, such as the machine code of computer
+                        programs. </p>
+                    <a href="#" class="btn">Get started</a>
+                </div>
+                <div class="represent__image"></div>
+            </div>
+        </section>
+
+        <section class="section  community">
+            <div class="container">
+                <div class="grid">
+                    <div class="text-group community__text-group">
+                        <img src="assets/community_avatar.png" alt="" class="avatar">
+                        <h3 class="title community__title">our community</h3>
+                        <p class="text community__text">A hacker is any skilled computer expert that uses their
+                            technical knowledge to overcome a problem, but it can also mean a security hacker in common
+                            language</p>
+                    </div>
+
+                    <div class="slider__panel">
+                        <div class="arrow arrow--left"></div><span class="slider__current-slide-number">1</span> / <span
+                            class="slider__all-slide-number">5</span>
+                        <div class="arrow arrow--right"></div>
+                    </div>
+                    <div class="slides">
+                        <div class="slider__item"><img src="assets/slide_1.png" class="slide" alt=""></div>
+                        <div class="slider__item"><img src="assets/slide_2.png" class="slide" alt=""></div>
+                        <div class="slider__item"><img src="assets/slide_3.png" class="slide" alt=""></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section  implement">
+            <div class="container">
+                <div class="implement__image"></div>
+                <div class="text-group implement__text-group">
+                    <h2 class="title implement__title">Implement right Code</h2>
+                    <p class="text implement__text">These might be considered part of the <strong
+                            class="text--bold">programming process</strong>, but often the term software development is
+                        used for this larger process with the term programming, implementation</p>
+                    <a href="#" class="btn implement__btn">Learn more</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section  subscribe">
+            <div class="container">
+                <h2 class="title subscribe__title">sign up for our newsletter</h2>
+                <div class="input-group">
+                    <input type="email" name="email" id="email" placeholder="E-mail" maxlength="30"
+                        pattern="^[-a-zA-Z0-9!#$%&'*+/=?^_`{|}~]+(?:\.[-a-zA-Z0-9!#$%&'*+/=?^_`{|}~]+)*@(?:[a-zA-Z0-9]([-a-zA-Z0-9]{0,61}[a-zA-Z0-9])?\.)*(?:aero|arpa|asia|biz|cat|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|tel|travel|[a-zA-Z]{2,3}})$" />
+                    <button class="btn btn--submit"><img src="assets/icon_check.svg" class="icon icon--check"
+                            alt="submit"></button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section  download">
+            <div class="container">
+                <h2 class="title download__title">Download the App</h2>
+                <p class="text download__text">Machine code was the language of early programs, written in the
+                    instruction set of the particular machine, often in binary notation.</p>
+                <div class="button-group">
+                    <button class="btn btn--apple">Apple store <div class="download__icon download__icon--apple"></div>
+                        </button>
+                    <button class="btn btn--android">Play Market <div class="download__icon download__icon--android">
+                        </div></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__left-block">
+                <ul class="footer__nav">
+                    <li class="nav__item"><a href="#" class="nav__link">Credits</a> </li>
+                    <li class="nav__item"><a href="#" class="nav__link">Privacy</a> </li>
+                    <li class="nav__item"><a href="#" class="nav__link">Our teams</a> </li>
+                </ul>
+            </nav>
+            <div class="footer__centre-block"><a href="#" class="footer__link--logo"><img src="assets/logo.svg"
+                        alt="logo"></a></div>
+            <div class="footer__right-block">
+                <p class="text">by TonYem for RSS at 2020</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</body>
+
+</html>
