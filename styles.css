@@ -324,6 +324,7 @@ h3 {
 
 .community .container {
     max-width: 1615px;
+    overflow: visible;
 }
 
 .community .grid {
@@ -478,9 +479,9 @@ h3 {
 
 /* SUBSCRIBE End */
 .subscribe {
-    background-color: #000000;
-    /* background-image: url(assets/bg_black_60.png), url(assets/subscribe_bg.png); */
-    /* background-size: cover, cover; */
+    /* background-color: #000000; */
+    background-image: url(assets/bg_black_60.png), url(assets/subscribe_bg.png);
+    background-size: cover, cover;
     height: 524px;
 }
 
